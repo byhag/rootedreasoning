@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <div id="wrapper">
+      
+
+      {% include side-navbar.html %}
+      <a class="btn btn-lg btn-primary" id="menu-toggle"><i class="fa fa-lg fa-bars"></i></a>
+      
+
+      <div id="page-content-wrapper" class="default">
+
+        {{ content }}
+        
+      </div>
+    </div>
+    
+  </body>
+
+</html>
