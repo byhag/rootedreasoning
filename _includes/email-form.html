@@ -1,0 +1,23 @@
+<script type="text/javascript" src="/js/form-submitted.js"></script>
+<div id="thanks">
+    <h2>{{include.thankYouMessage}}</h2>
+    <br>
+    <a class="btn btn-block btn-primary" href="/">Go back home</a>
+    <button class="btn btn-block btn-primary" onclick="sendAnother()">Send another email</button>
+</div>
+<div class="alert alert-warning alert-dismissable">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    It looks like you still have some blank fields.
+</div>
+<form id="email-form" class="form-group">
+    <label for="name-input">Name</label>
+    <input id="name-input" class="form-control" type="text" name="name" placeholder="Your name here">
+    <label>Email address</label>
+    <input class="form-control" type="text" name="email" placeholder="Your email here">
+    <label>Subject</label>
+    <input class="form-control" type="text" name="_subject" placeholder="Subject goes here">
+    <label>Message</label>
+    <textarea class="form-control" name="message" placeholder="{{include.placeholder}}"></textarea>
+    <br>
+    <button class="btn btn-block btn-primary" onclick="sendEmail()" type="button" value="send">Send</button>
+</form>

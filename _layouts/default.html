@@ -5,21 +5,49 @@
 
   <body>
 
-    {% include header.html %}
+    <div id="wrapper">
+      
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+      {% include side-navbar.html %}
+      <a class="btn btn-lg btn-primary sharing-toggle"><i class="fa fa-lg fa-share-alt"></i></a>
+      <div class="sharing">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/sharer.php?u={{site.url}}{{page.permalink}}" 
+              class="btn btn-lg btn-primary" target="_blank"
+              onclick="return !window.open(this.href, 'Facebook share', 'width=500,height=500')"><i class="fa fa-lg fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/share?url={{site.url}}{{page.permalink}}&via=rootedreasoning" 
+              class="btn btn-lg btn-primary" target="_blank"
+              onclick="return !window.open(this.href, 'Twitter share', 'width=500,height=500')"><i class="fa fa-lg fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/share?url={{site.url}}{{page.permalink}}" 
+              class="btn btn-lg btn-primary" target="_blank"
+              onclick="return !window.open(this.href, 'Google+ share', 'width=500,height=500')"><i class="fa fa-lg fa-google-plus"></i></a>
+          </li>
+          <li>
+            <a href="mailto:?body=Check out this article: https://{{site.url}}{{page.permalink}}" 
+              class="btn btn-lg btn-primary"><i class="fa fa-lg fa-envelope"></i></a>
+          </li>
+          <a href="sms:&body=Check out this article: https://{{site.url}}{{page.permalink}}" 
+              class="btn btn-lg btn-primary visible-xs"><i class="fa fa-lg fa-comment"></i></a>
+          </li>
       </div>
-    </main>
+      <a class="btn btn-lg btn-primary" id="menu-toggle"><i class="fa fa-lg fa-bars"></i></a>
+      
 
-    {% include footer.html %}
+      <div id="page-content-wrapper" class="default">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+        {{ content }}
+        
+        {% include footer.html %}
+      </div>
+    </div>
 
+    {% include reftagger.html %}
+    
   </body>
 
 </html>

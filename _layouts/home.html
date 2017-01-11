@@ -2,24 +2,40 @@
 layout: default
 ---
 
-<div class="home">
+<div>
 
-  <h1 class="page-heading">Posts</h1>
+  {% include home-header.html %}
   
-  {{ content }}
+  <main class="content">
+    <div class="col-xs-12">
+      <div class="article">
+        <div class="page-header">
+          <h1><b>{{page.title}}</b></h1>
+        </div>
+        <br>
+        <h2>A little about us...</h2>
+        <p>
+          <b>rootedreasoning.com</b> is a roadmap to many of life's big questions. We are dedicated to understanding the truth that is rooted in the nature and revealed wisdom of God, and providing our help and answers through that truth.
+        </p>
+        <p><i>Let's grow together.</i></p>
+        <br>
+        <div class="btn-group btn-group-justified">
+          <a class="btn btn-lg btn-primary" href="/about">Learn more</a>
+          <a class="btn btn-lg btn-primary" href="/study-with-us">Study with us</a>
+        </div>
+        <br>
+        <h2>Getting started...</h2>
+        <p>
+          The TruthTree connects related articles that discuss the big questions that individuals may have, starting with perhaps the biggest question of all - "Is there a God?" - and growing upwards.
+        </p>
+        <p><i>Let's go on a journey together.</i></p>
+        <br>
+      
+        <a class="btn btn-lg btn-block btn-primary" href="/climb">Start climbing</a>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
+        <!--<br><br>
+        <a class="btn btn-lg btn-primary" href="/bootstrap-only-site/home.html">Bootstrap only site</a>-->
+      </div>
+    </div>
+  </main>
 </div>

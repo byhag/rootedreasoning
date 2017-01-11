@@ -1,0 +1,116 @@
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand" style="height:70px">
+        <a id="logo" href="/">
+            <img src="/images/rrlogo-inline-roboto-slab.png" height="30px"/>  
+        </a>
+        </li>
+        <li>
+            <form class="form-group nav-search" action="/search" method="GET" role="search">
+                <div class="input-group">
+                    <input type="text" name="query" class="form-control" placeholder="search">
+                    <div class="input-group-btn">
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </li>
+        <li {% if page.permalink == "/" %}class="active"{% endif %}>
+        <a href="/">Home{% if page.permalink == "/" %}<span class="sr-only">(current)</span>{% endif %}</a>
+        </li>
+        <li {% if page.permalink == "/about" %}class="active"{% endif %}>
+        <a href="/about">About{% if page.permalink == "/about" %}<span class="sr-only">(current)</span>{% endif %}</a>
+        </li>
+        <li {% if page.permalink == '/ask-us' or page.permalink == '/study-with-us' or page.permalink == '/feedback'%}active{% endif %}>
+        <a class="submenu-toggle" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
+        <ul class="submenu">
+            <li {% if page.permalink == "/ask-us" %}class="active"{% endif %}>
+            <a href="/ask-us">Ask us{% if page.permalink == "/ask-us" %}<span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+            <li {% if page.permalink == "/study-with-us" %}class="active"{% endif %}>
+            <a href="/study-with-us">Study with us{% if page.permalink == "/study-with-us" %}<span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+            <li {% if page.permalink == "/feedback" %}class="active"{% endif %}>
+            <a href="/feedback">Feedback{% if page.permalink == "/feedback" %}<span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+        </ul>
+        </li>
+        <li {% if page.permalink == "/climb" %}class="active"{% endif %}>
+        <a href="/climb">Climb{% if page.permalink == "/climb" %}<span class="sr-only">(current)</span>{% endif %}</a>
+        </li>
+        <li {% if page.module == "God" %}class="active"{% endif %}>
+        <a class="submenu-toggle" role="button" aria-haspopup="true" aria-expanded="false">God <span class="caret"></span></a>
+        <ul class="submenu">
+            {% for article in site.articles %}
+            {% if article.module == "God" %}
+            <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
+                <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        </li>
+        <li {% if page.module == "Truth" %}class="active"{% endif %}>
+        <a class="submenu-toggle" role="button" aria-haspopup="true" aria-expanded="false">Truth <span class="caret"></span></a>
+        <ul class="submenu">
+            {% for article in site.articles %}
+            {% if article.module == "Truth" %}
+            <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
+                <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+            </li>            
+            {% endif %}
+            {% endfor %}
+        </ul>
+        </li>
+        <li {% if page.module == "God and Man" %}class="active"{% endif %}>
+        <a class="submenu-toggle" role="button" aria-haspopup="true" aria-expanded="false">God and Man <span class="caret"></span></a>
+        <ul class="submenu">
+            {% for article in site.articles %}
+            {% if article.module == "God and Man" %}
+            <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
+                <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        </li>
+        <li {% if page.module == "Man and Sin" %}class="active"{% endif %}>
+        <a class="submenu-toggle" role="button" aria-haspopup="true" aria-expanded="false">Man and Sin <span class="caret"></span></a>
+        <ul class="submenu">
+            {% for article in site.articles %}
+            {% if article.module == "Man and Sin" %}
+            <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
+                <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        </li>
+        <li {% if page.module == "Sin and Jesus" %}class="active"{% endif %}>
+        <a class="submenu-toggle" role="button" aria-haspopup="true" aria-expanded="false">Sin and Jesus <span class="caret"></span></a>
+        <ul class="submenu">
+            {% for article in site.articles %}
+            {% if article.module == "Sin and Jesus" %}
+            <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
+                <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        </li>
+        <li {% if page.module == "Salvation" %}class="active"{% endif %}>
+        <a class="submenu-toggle" role="button" aria-haspopup="true" aria-expanded="false">Salvation <span class="caret"></span></a>
+        <ul class="submenu">
+            {% for article in site.articles %}
+            {% if article.module == "Salvation" %}
+            <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
+                <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        </li>
+    </ul>
+</div>
+<!-- /#sidebar-wrapper -->
