@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article>
+
+  {% include article-header.html %}
+
+  <main class="content">
+    <div class="col-xs-12">
+      <div class="article">
+        
+        {{ content }}
+        
+        {% for article in site.articles %}
+          {% if article.permalink == page.permalink and page.intro != true %}
+          <br>
+          <div class="btn-group btn-group-justified">
+            <a class="btn btn-lg btn-primary" href="{{page.previous.permalink}}"><i class="fa fa-envira"></i> Previous</a>
+            <a class="btn btn-lg btn-primary" href="{{page.next.permalink}}"><i class="fa fa-envira"></i> Next</a>
+          </div>
+          
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </main>
+  
+</article>

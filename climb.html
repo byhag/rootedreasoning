@@ -1,0 +1,106 @@
+---
+layout: default
+title: TruthTree
+subtitle: "It's about the climb"
+bgimage: trees.jpg
+permalink: /climb
+---
+
+{% include article-header.html %}
+
+<main class="truthtree-content">
+    <div class="col-xs-12">
+        <div class="article">
+            A few climbing tips:
+            <ol>
+                <li>Start at the bottom - its hard to start a climb at the top</li>
+                <li>Follow the branches - that's the logical progression</li>
+                <li><a href="/ask-us">Ask us</a> - we're here if you have questions</li>
+            </ol>
+        </div>
+    </div>
+</main>
+<ul class="tree-branches">
+        <li>
+            <a class="btn btn-primary select-toggle">Salvation <span class="caret"></span></a>
+            <ul class="select-menu">
+                {% for article in site.articles %}
+                {% if article.module == "Salvation" %}
+                <li>
+                    <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li class="arrow"><i class="fa fa-chevron-up fa-lg"></i></li>
+        <li>
+            <a class="btn btn-primary select-toggle">Sin and Jesus <span class="caret"></span></a>
+            <ul class="select-menu">
+                {% for article in site.articles %}
+                {% if article.module == "Sin and Jesus" %}
+                <li>
+                    <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li class="arrow"><i class="fa fa-chevron-up fa-lg"></i></li>
+        <li>
+            <a class="btn btn-primary select-toggle">Man and Sin <span class="caret"></span></a>
+            <ul class="select-menu">
+                {% for article in site.articles %}
+                {% if article.module == "Man and Sin" %}
+                <li>
+                    <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li class="arrow"><i class="fa fa-chevron-up fa-lg"></i></li>
+        <li>
+            <a class="btn btn-primary select-toggle">God and Man <span class="caret"></span></a>
+            <ul class="select-menu">
+                {% for article in site.articles %}
+                {% if article.module == "God and Man" %}
+                <li>
+                    <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li class="arrow"><i class="fa fa-chevron-up fa-lg"></i></li>
+        <li>
+            <a class="btn btn-primary select-toggle">Truth <span class="caret"></span></a>
+            <ul class="select-menu">
+                {% for article in site.articles %}
+                {% if article.module == "Truth" %}
+                <li>
+                    <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li class="arrow"><i class="fa fa-chevron-up fa-lg"></i></li>
+        <li>
+            <a class="btn btn-primary select-toggle">God <span class="caret"></span></a>
+            <ul class="select-menu">
+                {% for article in site.articles %}
+                {% if article.module == "God" %}
+                <li>
+                    <a href="{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
+<div class="truthtree">
+    
+    <img src="/images/tree-silhouette.png"/>
+</div>
+<div style="height: 100px; background-image: linear-gradient(#000,#222); margin-bottom: -1px"></div>

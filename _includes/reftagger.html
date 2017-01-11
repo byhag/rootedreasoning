@@ -1,0 +1,31 @@
+<script>
+	var refTagger = {
+		settings: {
+			bibleVersion: "ESV",
+			dropShadow: true,
+			socialSharing: [],
+			tagChapters: false,
+			roundCorners: true,	
+			tooltipStyle: "dark",		
+			customStyle : {
+				heading: {
+					backgroundColor : "#777",
+					color : "#fff",
+					fontFamily : "Open Sans, Arial, Helvetica, sans-serif"
+				},
+				body: {
+					fontFamily : "Helvetica, Arial, sans-serif",
+					fontSize : "12pt",
+					moreLink : {
+						color: "#bbb"
+					}
+				}
+			}
+		}
+	};
+	(function(d, t) {
+		var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		g.src = "//api.reftagger.com/v2/RefTagger.js";
+		s.parentNode.insertBefore(g, s);
+	}(document, "script"));
+</script>
