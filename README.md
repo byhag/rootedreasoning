@@ -1,0 +1,2 @@
+# rootedreasoning
+rootedreasoning.com is intended to be a resource for those seeking answers. We believe these answers are rooted in what God has revealed to humans through His nature and His Word. This website maps out the big questions pertaining to this hope and this life and provides organized, succinct responses to those questions.

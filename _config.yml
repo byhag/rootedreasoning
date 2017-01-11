@@ -28,6 +28,7 @@ body-font: Open Sans
 title-font: Roboto Slab
 
 # Build settings
+exclude: [README.md]
 markdown: kramdown
 gems:
   - jekyll-feed
