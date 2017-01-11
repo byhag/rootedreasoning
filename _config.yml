@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   answers are rooted in what God has revealed to humans through His nature and His Word. This 
   website maps out the big questions pertaining to this hope and this life, and provides organized, 
   succinct responses to those questions.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/rootedreasoning" # the subpath of your site, e.g. /blog
 url: "https://byhag.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # formatted for scss
