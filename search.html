@@ -17,8 +17,8 @@ permalink: /search
     {% endfor %}
   };
 </script>
-<script src="/js/lunr.min.js"></script>
-<script src="/js/search.js"></script>
+<script src="{{site.baseurl}}/js/lunr.min.js"></script>
+<script src="{{site.baseurl}}/js/search.js"></script>
 
 <div class="content">
     <div class="col-xs-12">
@@ -26,7 +26,7 @@ permalink: /search
             <div class="page-header">
                 <h1><b>Search</b></h1>
             </div>
-            <form class="form-group search-page-bar" action="/search" method="GET" role="search">
+            <form class="form-group search-page-bar" action="{{site.baseurl}}/search" method="GET" role="search">
                 <div class="input-group">
                     <input type="text" id="search-box" name="query" class="form-control" placeholder="What are you looking for?">
                     <div class="input-group-btn">
