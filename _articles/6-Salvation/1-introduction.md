@@ -18,7 +18,7 @@ God intended this new relationship for all men, and He offers it freely. However
 {% for article in site.articles %}
 {% if article.module == "Salvation" %}
 {% unless article.title == page.title %}
-- [{{article.title}} - {{article.subtitle}}]({{article.permalink}})
+- [{{article.title}} - {{article.subtitle}}]({{site.baseurl}}{{article.permalink}})
 {% endunless %}
 {% endif %}
 {% endfor %}

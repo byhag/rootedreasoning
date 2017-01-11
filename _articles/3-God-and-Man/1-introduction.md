@@ -16,7 +16,7 @@ Additionally, this branch takes a look into two of the greatest questions ever p
 {% for article in site.articles %}
 {% if article.module == "God and Man" %}
 {% unless article.title == page.title %}
-- [{{article.title}} - {{article.subtitle}}]({{article.permalink}})
+- [{{article.title}} - {{article.subtitle}}]({{site.baseurl}}{{article.permalink}})
 {% endunless %}
 {% endif %}
 {% endfor %}

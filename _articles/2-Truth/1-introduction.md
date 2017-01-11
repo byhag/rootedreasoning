@@ -16,7 +16,7 @@ Anyone who has talked with Christians has experienced a common foundation from a
 {% for article in site.articles %}
 {% if article.module == "Truth" %}
 {% unless article.title == page.title %}
-- [{{article.title}} - {{article.subtitle}}]({{article.permalink}})
+- [{{article.title}} - {{article.subtitle}}]({{site.baseurl}}{{article.permalink}})
 {% endunless %}
 {% endif %}
 {% endfor %}

@@ -16,7 +16,7 @@ Before getting into the articles, it’s important to address three things that 
 {% for article in site.articles %}
 {% if article.module == "God" %}
 {% unless article.title == page.title %}
-- [{{article.title}} - {{article.subtitle}}]({{article.permalink}})
+- [{{article.title}} - {{article.subtitle}}]({{site.baseurl}}{{article.permalink}})
 {% endunless %}
 {% endif %}
 {% endfor %}

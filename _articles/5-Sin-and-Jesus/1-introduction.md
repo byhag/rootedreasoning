@@ -18,7 +18,7 @@ This branch examines who this Jesus was, the meaning and legitimacy of the resur
 {% for article in site.articles %}
 {% if article.module == "Sin and Jesus" %}
 {% unless article.title == page.title %}
-- [{{article.title}} - {{article.subtitle}}]({{article.permalink}})
+- [{{article.title}} - {{article.subtitle}}]({{site.baseurl}}{{article.permalink}})
 {% endunless %}
 {% endif %}
 {% endfor %}
