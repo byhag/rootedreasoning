@@ -29,4 +29,4 @@ If we examine the accounts of salvation in the historical book of Acts, we’d f
 ## Conclusion
 Salvation comes through Christ through faith through baptism. It is in baptism that we die to ourselves and live to God, demonstrating our faith and belief in Jesus Christ. However, an active and true faith does not stop there. It is one that is more than just a belief. It continues to grow, and it confesses itself to others. We must strive to make our salvation sure (2 Peter 1:3-11). More about this is discussed in the next lesson.
  
-A great deal more could be said, but if you are interested, we ask that you “ask to study with us” by contacting us through this [link](/study-with-us). We would truly love to talk to you more about this.
+A great deal more could be said, but if you are interested, we ask that you “ask to study with us” by contacting us through this [link]({{site.baseurl}}/study-with-us). We would truly love to talk to you more about this.

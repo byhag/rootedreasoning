@@ -9,7 +9,7 @@ permalink: /God-and-Man/what-is-God-like-part2
 
 “In the beginning God created the heavens and the earth” (Genesis 1:1). Thus begins the biblical understanding of God. This is not a formal argument for God’s existence. The Bible assumes that God’s existence is a given, and the rest of creation owes its existence to the power and sovereignty of God. “For since the creation of the world His invisible attributes, His eternal power and divine nature, have been clearly seen, being understood through what has been made, so that they are without excuse” (Rom. 1:20).
  
-In [“What is God Like? (Part 1)”](/God/what-is-God-like-part1), we attempted to piece together what can be learned about God by simply perceiving Him from what He has made. Fortunately, though God is unfathomable, He has helped us to perceive Him by telling us about Himself through the Bible. This article explains what we can learn about God through His own words.
+In [“What is God Like? (Part 1)”]({{site.baseurl}}/God/what-is-God-like-part1), we attempted to piece together what can be learned about God by simply perceiving Him from what He has made. Fortunately, though God is unfathomable, He has helped us to perceive Him by telling us about Himself through the Bible. This article explains what we can learn about God through His own words.
  
 ## His Nature
 There is much misunderstanding about who God is, though this is nothing new. When Moses came to Pharaoh telling him to let God’s people go, Pharaoh replied, “Who is Yahweh that I should obey His voice to let Israel go? I do not know Yahweh, and besides, I will not let Israel go” (Exod. 5:1-2). Pharaoh had no idea who he was dealing with. In his mind, Yahweh was a lesser being who didn’t deserve to be respected to trusted.

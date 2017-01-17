@@ -52,4 +52,4 @@ Ananias said to Paul (Acts 22:16) “And now why do you wait? Rise and be baptiz
  
 I ask you: why do you wait?
 ​
-If you'd like to find out more about becoming a Christian, follow this link. Or, please “ask to study with us” by contacting us through this [link](/study-with-us). We would truly love to talk to you more about this.
+If you'd like to find out more about becoming a Christian, follow this link. Or, please “ask to study with us” by contacting us through this [link]({{site.baseurl}}/study-with-us). We would truly love to talk to you more about this.
