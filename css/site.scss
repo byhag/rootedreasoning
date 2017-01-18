@@ -108,6 +108,9 @@ textarea.form-control {
         //padding-top: 50vh;
         padding-bottom: 0;
     }
+    @media (max-width: $screen-xs-max) and (orientation: landscape) {
+        padding-top: 20vh;
+    }
 
     img {
         margin-left: -10px;
