@@ -16,18 +16,19 @@ $(document).ready( function() {
 
     // don't change menu icon on mobile
     if (window.innerWidth < 768) {
-        localStorage.setItem('showMenuOnLoad',true);
+        showMenuOnLoad = "false";
+        localStorage.setItem('showMenuOnLoad',false);
         $('i','#menu-toggle').removeClass('fa-long-arrow-left');
         $('i','#menu-toggle').addClass('fa-bars');
     }
 
     if (showMenuOnLoad == "true") {
         $('#wrapper').addClass('toggled');
-    } else {
-        if (window.innerWidth > 767) {
-            $('i','#menu-toggle').removeClass('fa-long-arrow-left');
-            $('i','#menu-toggle').addClass('fa-bars');
-        }
+    }
+
+    if (window.innerWidth > 767) {
+        $('i','#menu-toggle').removeClass('fa-long-arrow-left');
+        $('i','#menu-toggle').addClass('fa-bars');
     }
 
     $('#menu-toggle').click(function(e) {

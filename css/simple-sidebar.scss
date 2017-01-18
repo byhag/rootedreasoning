@@ -20,7 +20,7 @@ $title-font: "{{site.title-font}}";
 /* Toggle Styles */
 // mobile
 #wrapper {
-    padding-top: $height-mobile;
+    padding-top: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -28,7 +28,7 @@ $title-font: "{{site.title-font}}";
 }
 
 #wrapper.toggled {
-    padding-top: 0;
+    padding-top: $height-mobile;
 }
 
 #sidebar-wrapper {
@@ -37,7 +37,7 @@ $title-font: "{{site.title-font}}";
     position: fixed;
     left: 0;
     top: $height-mobile;
-    height: $height-mobile;
+    height: 0;
     width: 100%;
     margin-top: -$height-mobile;
     overflow-y: auto;
@@ -50,7 +50,7 @@ $title-font: "{{site.title-font}}";
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    height: 0;
+    height: $height-mobile;
 }
 
 #page-content-wrapper {
