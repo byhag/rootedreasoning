@@ -24,6 +24,8 @@ $(document).ready( function() {
 
     if (showMenuOnLoad == "true") {
         $('#wrapper').addClass('toggled');
+        $('i','#menu-toggle').addClass('fa-long-arrow-left');
+        $('i','#menu-toggle').removeClass('fa-bars');
     }
 
     if (window.innerWidth > 767) {
