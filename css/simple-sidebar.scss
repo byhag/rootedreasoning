@@ -18,8 +18,9 @@ $body-font: "{{site.body-font}}";
 $title-font: "{{site.title-font}}";
 
 /* Toggle Styles */
+// mobile
 #wrapper {
-    padding-top: 0;
+    padding-top: $height-mobile;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -27,7 +28,7 @@ $title-font: "{{site.title-font}}";
 }
 
 #wrapper.toggled {
-    padding-top: $height-mobile;
+    padding-top: 0;
 }
 
 #sidebar-wrapper {
@@ -36,7 +37,7 @@ $title-font: "{{site.title-font}}";
     position: fixed;
     left: 0;
     top: $height-mobile;
-    height: 0;
+    height: $height-mobile;
     width: 100%;
     margin-top: -$height-mobile;
     overflow-y: auto;
@@ -49,7 +50,7 @@ $title-font: "{{site.title-font}}";
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    height: $height-mobile;
+    height: 0;
 }
 
 #page-content-wrapper {
@@ -75,7 +76,7 @@ $title-font: "{{site.title-font}}";
 
 .sidebar-nav li {
     text-indent: 20px;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 .sidebar-nav li a {
@@ -119,6 +120,7 @@ $title-font: "{{site.title-font}}";
 
 $nav-width: 250px;
 
+// for regular screens
 @media(min-width:$screen-sm-min) {
     #wrapper {
         padding-top: 0;
