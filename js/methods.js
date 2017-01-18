@@ -26,9 +26,7 @@ $(document).ready( function() {
         $('#wrapper').addClass('toggled');
         $('i','#menu-toggle').addClass('fa-long-arrow-left');
         $('i','#menu-toggle').removeClass('fa-bars');
-    }
-
-    if (window.innerWidth > 767) {
+    } else {
         $('i','#menu-toggle').removeClass('fa-long-arrow-left');
         $('i','#menu-toggle').addClass('fa-bars');
     }
