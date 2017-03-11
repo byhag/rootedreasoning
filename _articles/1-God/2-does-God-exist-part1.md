@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Does God exist?"
-subtitle: "From the beginning..."
+subtitle: "A universe from nothing?"
 module: God
 bgimage: milky-way.jpg
 permalink: /God/does-God-exist-part1
