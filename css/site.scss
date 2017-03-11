@@ -56,6 +56,7 @@ $body-font: "{{site.body-font}}";
 
 body {
     font-family: $body-font !important;
+    line-height: 1.8;
 }
 
 blockquote {
@@ -72,15 +73,15 @@ h1, h2, h3 {
 
 .table {
     background-color: #ddd;
-    overflow: hidden;
+    overflow: auto;
     font-size: 11pt;
     color: #333;
-    border-radius: 5px !important;
     text-align: center;
     > thead > tr > th {
         color: #eee;
         background-color: #444;
         border-bottom: none;
+        text-align: center;
     }
 }
 
