@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "What is the purpose in life?"
-subtitle: "The question we ignore"
+subtitle: "Why are we here?"
 bgimage: balloon.jpg
 module: "God and Man"
 permalink: /God-and-Man/what-is-the-purpose-in-life
