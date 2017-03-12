@@ -71,13 +71,17 @@ h1, h2, h3 {
     font-family: $title-font;
 }
 
-.table {
-    background-color: #ddd;
+
+
+.table-responsive {
+    background-color: #ddd !important;
+    border: none;
+    margin: 0px -30px;
     overflow: auto;
     font-size: 11pt;
     color: #333;
     text-align: center;
-    > thead > tr > th {
+    thead > tr > th {
         color: #eee;
         background-color: #444;
         border-bottom: none;
@@ -189,7 +193,7 @@ textarea.form-control {
     }
     h2 {
         @media (max-width: $screen-sm-max) {
-            font-size: 20pt;
+            font-size: 25pt;
         }
     }
 

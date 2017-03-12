@@ -8,8 +8,6 @@ $(document).ready( function() {
 
     var showMenuOnLoad = localStorage.getItem('showMenuOnLoad');
 
-    console.log(!showMenuOnLoad);
-
     $('.submenu').hide();
     $('.sharing').hide();
     $('.select-menu').hide();
@@ -39,7 +37,6 @@ $(document).ready( function() {
         } else {
             showMenuOnLoad = "true";
         }
-        console.log(showMenuOnLoad);
         localStorage.setItem('showMenuOnLoad',showMenuOnLoad);
         if (window.innerWidth > 767) {
             $('i',this).toggleClass('fa-bars');
