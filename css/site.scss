@@ -76,7 +76,7 @@ h1, h2, h3 {
 .table-responsive {
     background-color: #ddd !important;
     border: none;
-    margin: 0px -30px;
+    margin: 0px 0px;
     overflow: auto;
     font-size: 11pt;
     color: #333;
@@ -396,16 +396,27 @@ textarea.form-control {
     background-color: #eee;
     overflow-x: hidden;
     margin: 0;
+    margin-left: -300px;
     margin-bottom: -1px;
     padding-left: 100px;
     > img {
         height: 100vh;
     }
+    @media(max-width: $screen-sm-max) {
+        padding-top: 200px;
+        margin-left: -400px;
+        > img {
+            height: 90vh;
+        }
+    }
     @media (max-width: $screen-xs-max) {
         padding-left: 0;
-        margin-left: -200px;
+        margin-left: -250px;
+        padding-top: 400px;
+        > img {
+            height: 70vh;
+        }
     }
-    
 }
 
 .select-toggle {
