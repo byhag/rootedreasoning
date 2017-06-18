@@ -18,21 +18,32 @@ function sendEmail() {
         }
     }
 
+    var url = window.location.href;
+    var page = '';
+    
+    if (url.includes('ask-us')) {
+        page = 'askus.';
+    } else if (url.includes('feedback')) {
+        page = 'feedback.';
+    } else if (url.includes('study-with-us')) {
+        page = 'study.';
+    }
+
     $.ajax({
-        url: "https://formspree.io/byron.g.hager@gmail.com",
-        method: "POST",
+        url: 'https://formspree.io/' + page + 'rootedreasoning@gmail.com',
+        method: 'POST',
         data: {
             name: form.name.value,
             email: form.email.value,
             _subject: form._subject.value,
             message: form.message.value,
-            _format: "plain"
+            _format: 'plain'
         },
-        dataType: "json"
+        dataType: 'json'
     });
 
     for (var i = 0; i < form.length; ++i) {
-        form[i].value = "";
+        form[i].value = '';
     }
 
     $('.alert').hide();
