@@ -27,7 +27,12 @@ permalink: /climb
                 {% for article in site.articles %}
                 {% if article.module == "Salvation" %}
                 <li>
-                    <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                    <a href="{{site.baseurl}}{{article.permalink}}">
+                        {{article.title}}
+                        {% if article.subtitle != "" %}
+                             - {{article.subtitle}}
+                        {% endif %}
+                    </a>
                 </li>
                 {% endif %}
                 {% endfor %}
@@ -40,7 +45,12 @@ permalink: /climb
                 {% for article in site.articles %}
                 {% if article.module == "Sin and Jesus" %}
                 <li>
-                    <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                    <a href="{{site.baseurl}}{{article.permalink}}">
+                        {{article.title}}
+                        {% if article.subtitle != "" %}
+                             - {{article.subtitle}}
+                        {% endif %}
+                    </a>
                 </li>
                 {% endif %}
                 {% endfor %}
@@ -53,7 +63,12 @@ permalink: /climb
                 {% for article in site.articles %}
                 {% if article.module == "Man and Sin" %}
                 <li>
-                    <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                    <a href="{{site.baseurl}}{{article.permalink}}">
+                        {{article.title}}
+                        {% if article.subtitle != "" %}
+                             - {{article.subtitle}}
+                        {% endif %}
+                    </a>
                 </li>
                 {% endif %}
                 {% endfor %}
@@ -66,7 +81,12 @@ permalink: /climb
                 {% for article in site.articles %}
                 {% if article.module == "God and Man" %}
                 <li>
-                    <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                    <a href="{{site.baseurl}}{{article.permalink}}">
+                        {{article.title}}
+                        {% if article.subtitle != "" %}
+                             - {{article.subtitle}}
+                        {% endif %}
+                    </a>
                 </li>
                 {% endif %}
                 {% endfor %}
@@ -79,7 +99,12 @@ permalink: /climb
                 {% for article in site.articles %}
                 {% if article.module == "Truth" %}
                 <li>
-                    <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                    <a href="{{site.baseurl}}{{article.permalink}}">
+                        {{article.title}}
+                        {% if article.subtitle != "" %}
+                             - {{article.subtitle}}
+                        {% endif %}
+                    </a>
                 </li>
                 {% endif %}
                 {% endfor %}
@@ -92,7 +117,12 @@ permalink: /climb
                 {% for article in site.articles %}
                 {% if article.module == "God" %}
                 <li>
-                    <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}</a>
+                    <a href="{{site.baseurl}}{{article.permalink}}">
+                        {{article.title}}
+                        {% if article.subtitle != "" %}
+                             - {{article.subtitle}}
+                        {% endif %}
+                    </a>
                 </li>
                 {% endif %}
                 {% endfor %}
@@ -103,4 +133,4 @@ permalink: /climb
     
     <img src="{{site.baseurl}}/images/tree-silhouette.png"/>
 </div>
-<div style="height: 100px; background-image: linear-gradient(#000,#222); margin-bottom: -1px"></div>
+<div style="height: 150px; background-image: linear-gradient(#000,#222); margin-bottom: -1px"></div>

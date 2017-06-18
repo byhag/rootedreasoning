@@ -37,7 +37,7 @@
         </ul>
         </li>
         <li {% if page.permalink == "/climb" %}class="active"{% endif %}>
-        <a href="{{site.baseurl}}/climb">Climb{% if page.permalink == "/climb" %}<span class="sr-only">(current)</span>{% endif %}</a>
+        <a href="{{site.baseurl}}/climb">Climb - Start Here{% if page.permalink == "/climb" %}<span class="sr-only">(current)</span>{% endif %}</a>
         </li>
         <li {% if page.module == "God" %}class="active"{% endif %}>
         <a class="submenu-toggle" role="button" aria-haspopup="true" aria-expanded="false">God <span class="caret"></span></a>
@@ -45,7 +45,15 @@
             {% for article in site.articles %}
             {% if article.module == "God" %}
             <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
-                <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+                <a href="{{site.baseurl}}{{article.permalink}}">
+                    {{article.title}}
+                    {% if article.subtitle != "" %}
+                         - {{article.subtitle}}
+                    {% endif %}
+                    {% if page.permalink == article.permalink %}
+                        <span class="sr-only">(current)</span>
+                    {% endif %}
+                </a>
             </li>
             {% endif %}
             {% endfor %}
@@ -57,7 +65,15 @@
             {% for article in site.articles %}
             {% if article.module == "Truth" %}
             <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
-                <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+                <a href="{{site.baseurl}}{{article.permalink}}">
+                    {{article.title}}
+                    {% if article.subtitle != "" %}
+                         - {{article.subtitle}}
+                    {% endif %}
+                    {% if page.permalink == article.permalink %}
+                        <span class="sr-only">(current)</span>
+                    {% endif %}
+                </a>
             </li>            
             {% endif %}
             {% endfor %}
@@ -69,7 +85,15 @@
             {% for article in site.articles %}
             {% if article.module == "God and Man" %}
             <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
-                <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+                <a href="{{site.baseurl}}{{article.permalink}}">
+                    {{article.title}}
+                    {% if article.subtitle != "" %}
+                         - {{article.subtitle}}
+                    {% endif %}
+                    {% if page.permalink == article.permalink %}
+                        <span class="sr-only">(current)</span>
+                    {% endif %}
+                </a>
             </li>
             {% endif %}
             {% endfor %}
@@ -81,7 +105,15 @@
             {% for article in site.articles %}
             {% if article.module == "Man and Sin" %}
             <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
-                <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+                <a href="{{site.baseurl}}{{article.permalink}}">
+                    {{article.title}}
+                    {% if article.subtitle != "" %}
+                         - {{article.subtitle}}
+                    {% endif %}
+                    {% if page.permalink == article.permalink %}
+                        <span class="sr-only">(current)</span>
+                    {% endif %}
+                </a>
             </li>
             {% endif %}
             {% endfor %}
@@ -93,7 +125,15 @@
             {% for article in site.articles %}
             {% if article.module == "Sin and Jesus" %}
             <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
-                <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+                <a href="{{site.baseurl}}{{article.permalink}}">
+                    {{article.title}}
+                    {% if article.subtitle != "" %}
+                         - {{article.subtitle}}
+                    {% endif %}
+                    {% if page.permalink == article.permalink %}
+                        <span class="sr-only">(current)</span>
+                    {% endif %}
+                </a>
             </li>
             {% endif %}
             {% endfor %}
@@ -105,7 +145,15 @@
             {% for article in site.articles %}
             {% if article.module == "Salvation" %}
             <li {% if page.permalink == article.permalink %}class="active"{% endif %}>
-                <a href="{{site.baseurl}}{{article.permalink}}">{{article.title}} - {{article.subtitle}}{% if page.permalink == article.permalink %}<span class="sr-only">(current)</span>{% endif %}</a>
+                <a href="{{site.baseurl}}{{article.permalink}}">
+                    {{article.title}}
+                    {% if article.subtitle != "" %}
+                         - {{article.subtitle}}
+                    {% endif %}
+                    {% if page.permalink == article.permalink %}
+                        <span class="sr-only">(current)</span>
+                    {% endif %}
+                </a>
             </li>
             {% endif %}
             {% endfor %}
