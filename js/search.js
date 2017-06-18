@@ -10,7 +10,7 @@ $(document).ready(function() {
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<a class="result" href="' + "{{site.baseurl}}" + item.url + '"><h3>' + item.title + '<small> ' + item.subtitle + '</small></h3></a>';
+        appendString += '<h3><a class="result" href="' + "{{site.baseurl}}" + item.url + '">' + item.title + '<small> ' + item.subtitle + '</small></a></h3>';
         appendString += '<p>' + item.content.substring(0, 150) + '...</p>';
       }
 
