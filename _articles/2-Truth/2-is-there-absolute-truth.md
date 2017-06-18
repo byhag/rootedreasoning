@@ -1,6 +1,6 @@
 ---
 title: "Is there absolute truth?"
-subtitle: "Can we know?"
+subtitle: ""
 bgimage: forest-path.jpg
 layout: article
 module: Truth

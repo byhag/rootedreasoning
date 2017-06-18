@@ -1,6 +1,6 @@
 ---
 title: "Are you open-minded to the evidence?"
-subtitle: "What counts? (Supplemental)"
+subtitle: "(Supplemental)"
 bgimage: "forest-path.jpg"
 layout: article
 module: God

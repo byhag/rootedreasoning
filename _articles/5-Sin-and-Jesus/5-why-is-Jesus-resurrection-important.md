@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Why is Jesus' resurrection important?"
-subtitle: "Who He claimed to be"
+subtitle: ""
 bgimage: summit-cross.jpg
 module: "Sin and Jesus"
 permalink: /Sin-and-Jesus/importance-of-the-resurrection

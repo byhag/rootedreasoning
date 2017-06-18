@@ -1,6 +1,6 @@
 ---
 title: "Is the Bible historical?"
-subtitle: "Old Testament"
+subtitle: "Part 1 - Old Testament"
 bgimage: study.jpg
 layout: article
 module: Truth

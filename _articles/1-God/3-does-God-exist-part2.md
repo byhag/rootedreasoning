@@ -1,6 +1,6 @@
 ---
 title: "Does God exist?"
-subtitle: "What does creation tell us?"
+subtitle: "Part 2"
 bgimage: milky-way.jpg
 layout: article
 module: God

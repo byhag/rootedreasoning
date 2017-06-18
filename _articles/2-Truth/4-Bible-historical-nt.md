@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Is the Bible historical?"
-subtitle: "New Testament"
+subtitle: "Part 2 - New Testament"
 bgimage: study.jpg
 module: Truth
 permalink: /Truth/Bible-historical-nt

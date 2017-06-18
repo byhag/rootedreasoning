@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "How can I be saved?"
-subtitle: "Death and resurrection"
+subtitle: ""
 bgimage: asphalt.jpg
 module: Salvation
 permalink: /Salvation/how-can-I-be-saved

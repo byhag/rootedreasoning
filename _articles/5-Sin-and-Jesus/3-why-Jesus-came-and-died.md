@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Why did Jesus come and die?"
-subtitle: "The greatest act of selflessness"
+subtitle: ""
 bgimage: summit-cross.jpg
 module: "Sin and Jesus"
 permalink: /Sin-and-Jesus/why-Jesus-came-and-died

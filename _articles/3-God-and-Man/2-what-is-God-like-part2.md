@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "What is God like?"
-subtitle: "The God of Scripture"
+subtitle: "Part 2"
 bgimage: sky.jpg
 module: "God and Man"
 permalink: /God-and-Man/what-is-God-like-part2

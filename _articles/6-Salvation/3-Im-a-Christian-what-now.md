@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "I'm a Christian! What now?"
-subtitle: "Putting on the new self"
+subtitle: ""
 bgimage: country-road.jpg
 module: Salvation
 permalink: /Salvation/Im-a-Christian-what-now

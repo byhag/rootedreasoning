@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "What is heaven, hell, and the results of sin?"
-subtitle: "Eternal consequences"
+subtitle: ""
 bgimage: trees.jpg
 module: "Man and Sin"
 permalink: /Man-and-Sin/heaven-hell-and-sin

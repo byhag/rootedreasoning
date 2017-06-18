@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "What is sin?"
-subtitle: "Man's separation from God"
+subtitle: ""
 bgimage: trees.jpg
 module: "Man and Sin"
 permalink: /Man-and-Sin/what-is-sin
