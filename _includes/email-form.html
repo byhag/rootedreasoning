@@ -2,8 +2,8 @@
 <div id="thanks">
     <h2>{{include.thankYouMessage}}</h2>
     <br>
-    <a class="btn btn-block btn-primary" href="{{site.baseurl}}/">Go back home</a>
-    <button class="btn btn-block btn-primary" onclick="sendAnother()">Send another email</button>
+    <a class="btn btn-lg btn-block btn-primary" href="{{site.baseurl}}/">Go back home</a>
+    <button class="btn btn-lg btn-block btn-primary" onclick="sendAnother()">Send another email</button>
 </div>
 <div class="alert alert-warning alert-dismissable">
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
@@ -19,5 +19,5 @@
     <label>Message</label>
     <textarea class="form-control" name="message" placeholder="{{include.placeholder}}"></textarea>
     <br>
-    <button class="btn btn-block btn-primary" onclick="sendEmail()" type="button" value="send">Send</button>
+    <button class="btn btn-lg btn-block btn-primary" onclick="sendEmail()" type="button" value="send">Send</button>
 </form>
