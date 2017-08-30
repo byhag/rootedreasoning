@@ -17,7 +17,7 @@ The argument, which is really quite simple, looks something like this:
 4. Therefore, the universe has an uncaused cause.
 
 ## 1. The universe exists.
-This idea is rather simple which is why I’m not going to say much about it. We experience the things around us. We see. We touch. We smell. We hear. Our world is tangible and, therefore, undeniable, exists.
+This idea is rather simple which is why I’m not going to say much about it. We experience the things around us. We see. We touch. We smell. We hear. Our world is tangible and, therefore, undeniably, exists.
 
 ## 2. The universe does not have to exist.
 In other words, the universe does not exist by necessity. For instance, why does the universe have to have life in it? We can see other planets in our own solar system that don’t have life. Life doesn't exist necessarily. Our existence does not perpetuate or sustain the existence of the stars, the planets, the universe. Furthermore, why does the universe have to exist at all? There could have just been absolute nothingness instead. Why not? We wouldn’t have known if it were.
