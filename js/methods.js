@@ -20,14 +20,14 @@ $(document).ready( function() {
         $('i','#menu-toggle').addClass('fa-bars');
     }
 
-    if (showMenuOnLoad == "true") {
-        $('#wrapper').addClass('toggled');
-        $('i','#menu-toggle').addClass('fa-long-arrow-left');
-        $('i','#menu-toggle').removeClass('fa-bars');
-    } else {
-        $('i','#menu-toggle').removeClass('fa-long-arrow-left');
-        $('i','#menu-toggle').addClass('fa-bars');
-    }
+    // if (showMenuOnLoad == "true") {
+    //     $('#wrapper').addClass('toggled');
+    //     $('i','#menu-toggle').addClass('fa-long-arrow-left');
+    //     $('i','#menu-toggle').removeClass('fa-bars');
+    // } else {
+    //     $('i','#menu-toggle').removeClass('fa-long-arrow-left');
+    //     $('i','#menu-toggle').addClass('fa-bars');
+    // }
 
     $('#menu-toggle').click(function(e) {
         e.preventDefault();
